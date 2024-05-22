@@ -1,0 +1,973 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+
+body {
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+
+}
+
+/* For first main content  */
+
+/* For left side */
+.all_first_content {
+    background-image: url(https://www.oneplus.in/content/dam/oasis/page/2024/in/home/dual/genshin-large.jpg.thumb.webp);
+    width: 100%;
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 3px;
+}
+
+.all_first_content>.first_content_left {
+    /* border: 2px solid red; */
+    /* width: 20%; */
+    display: inline-block;
+    position: absolute;
+    top: 220px;
+    left: 140px;
+    /* word-wrap: break-word; */
+    /* white-space: pre-line; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.all_first_content>.first_content_left>h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.all_first_content>.first_content_left>p {
+    margin-bottom: 10px;
+    line-height: 1.4rem;
+}
+
+.all_first_content>.first_content_left>.first_content_left_butn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* height: 80px; */
+    /* margin-left: 10px; */
+}
+
+.all_first_content>.first_content_left>.first_content_left_butn>button {
+    height: 30px;
+    width: 80px;
+    margin-right: 5px;
+    background-color: #111;
+    color: #fff;
+    font-size: 0.7rem;
+    cursor: pointer;
+    /* animation: left 0.5s ease-in-out; */
+    /* animation-fill-mode: forwards; */
+}
+
+.all_first_content>.first_content_left>.first_content_left_butn>button:hover {
+    background-color: #111111c8;
+    border: none;
+    /* animation: left; */
+    /* animation: left 0.5s ease-in-out; */
+
+}
+
+.all_first_content>.first_content_left>.first_content_left_butn>p>a {
+    text-decoration: underline;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    color: #111;
+}
+
+.all_first_content>.first_content_left>.first_content_left_butn>p>a:hover {
+    color: blue;
+}
+
+/* For Right side */
+
+.all_first_content>.first_content_right {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 180px;
+    /* left: 140px; */
+    right: 140px;
+    /* white-space: pre-line; */
+    /* width: 20%; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.all_first_content>.first_content_right>h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.all_first_content>.first_content_right>p {
+    margin-bottom: 10px;
+    line-height: 1.4rem;
+}
+
+.all_first_content>.first_content_right>.first_content_right_butn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* height: 80px; */
+    /* margin-left: 10px; */
+}
+
+.all_first_content>.first_content_right>.first_content_right_butn>button {
+    height: 30px;
+    width: 80px;
+    margin-right: 5px;
+    background-color: #111;
+    color: #fff;
+    font-size: 0.7rem;
+    cursor: pointer;
+    /* animation: left 0.5s ease-in-out; */
+    /* animation-fill-mode: forwards; */
+}
+
+.all_first_content>.first_content_right>.first_content_right_butn>button:hover {
+    background-color: #111111c8;
+    border: none;
+    /* animation: left; */
+    /* animation: left 0.5s ease-in-out; */
+
+}
+
+.all_first_content>.first_content_right>.first_content_right_butn>p>a {
+    text-decoration: underline;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    color: #111;
+}
+
+.all_first_content>.first_content_right>.first_content_right_butn>p>a:hover {
+    color: blue;
+}
+
+/* For Second main content  */
+
+/* For top side */
+
+.all_second_content {
+    background-image: url(https://www.oneplus.in/content/dam/oasis/page/2024/in/home/benz/benz-pc-0322.jpg.thumb.webp);
+    width: 100%;
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 10px;
+}
+
+.all_second_content>.second_content_top {
+    /* border: 2px solid red; */
+    /* width: 20%; */
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    /* word-wrap: break-word; */
+    /* white-space: pre-line; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.all_second_content>.second_content_top>h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    line-height: 2.5rem;
+}
+
+.all_second_content>.second_content_top>p {
+    margin-bottom: 10px;
+    /* border: 2px solid red; */
+}
+
+/* For Bottom side */
+
+.all_second_content>.second_content_bottom {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    /* top: 180px; */
+    bottom: 30px;
+    left: 80px;
+
+    /* left: 140px; */
+    /* right: 140px; */
+    /* white-space: pre-line; */
+    /* width: 20%; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.all_second_content>.second_content_bottom>h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.all_second_content>.second_content_bottom>p {
+    margin-bottom: 10px;
+    line-height: 1.4rem;
+}
+
+.all_second_content>.second_content_bottom>.second_content_bottom_butn {
+    display: flex;
+    /* text-align: center; */
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 80px; */
+    /* margin-left: 10px; */
+}
+
+.all_second_content>.second_content_bottom>.second_content_bottom_butn>button {
+    height: 30px;
+    width: 80px;
+    margin-right: 5px;
+    background-color: #111;
+    color: #fff;
+    font-size: 0.7rem;
+    cursor: pointer;
+    /* animation: left 0.5s ease-in-out; */
+    /* animation-fill-mode: forwards; */
+}
+
+.all_second_content>.second_content_bottom>.second_content_bottom_butn>button:hover {
+    background-color: #111111c8;
+    border: none;
+    /* animation: left; */
+    /* animation: left 0.5s ease-in-out; */
+
+}
+
+/* For Third main content  */
+
+/* For top side */
+
+.all_third_content {
+    background-image: url(https://www.oneplus.in/content/dam/oasis/page/2024/bannerproduct/wa-12-pc.webp.thumb.webp);
+    width: 100%;
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 10px;
+}
+
+.all_third_content>.third_content_top {
+    /* border: 2px solid red; */
+    /* width: 20%; */
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    /* word-wrap: break-word; */
+    /* white-space: pre-line; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.all_third_content>.third_content_top>h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    line-height: 2.5rem;
+}
+
+.all_third_content>.third_content_top>p {
+    margin-bottom: 10px;
+    /* border: 2px solid red; */
+}
+
+/* For Bottom side */
+
+.all_third_content>.third_content_bottom {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    /* top: 180px; */
+    bottom: 30px;
+    left: 80px;
+
+    /* left: 140px; */
+    /* right: 140px; */
+    /* white-space: pre-line; */
+    /* width: 20%; */
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+
+.all_third_content>.third_content_bottom>h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.all_third_content>.third_content_bottom>p {
+    margin-bottom: 10px;
+    line-height: 1.4rem;
+}
+
+.all_third_content>.third_content_bottom>.third_content_bottom_butn {
+    display: flex;
+    /* text-align: center; */
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 80px; */
+    /* margin-left: 10px; */
+}
+
+.all_third_content>.third_content_bottom>.third_content_bottom_butn>button {
+    height: 30px;
+    width: 80px;
+    margin-right: 5px;
+    background-color: #111;
+    color: #fff;
+    font-size: 0.7rem;
+    cursor: pointer;
+    /* animation: left 0.5s ease-in-out; */
+    /* animation-fill-mode: forwards; */
+}
+
+.all_third_content>.third_content_bottom>.third_content_bottom_butn>button:hover {
+    background-color: #111111c8;
+    border: none;
+    /* animation: left; */
+    /* animation: left 0.5s ease-in-out; */
+
+}
+
+.all_third_content>.third_content_bottom>.third_content_bottom_butn>p>a {
+    text-decoration: underline;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    color: #111;
+}
+
+.all_third_content>.third_content_bottom>.third_content_bottom_butn>p>a:hover {
+    color: blue;
+}
+
+/* This is for fourth */
+/* This is for fourth */
+/* This is for fourth */
+
+.all_fourth_content {
+    display: flex;
+    /* margin:  10px 7.5% 0 7%; */
+    /* margin: 5px; */
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 20px;
+    /* border: 2px solid green; */
+    position: relative;
+    /* top: 30px; */
+}
+
+/* -------------------------------___________________Fourth First ___________________---------------------- */
+
+.all_fourth_first {
+    background-image: url(https://oasis.opstatics.com/content/dam/oasis/page/2024/product/nord-ce3-lite/highlight/two-column/nordce3-lite-pc.jpg.thumb.webp);
+    width: 50%;
+    height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+    /* margin-top: 10px; */
+    /* margin-left: 7.5%; */
+    /* border: 2px solid red; */
+}
+
+.all_fourth_first>.all_fourth_content_top {
+    /* border: 2px solid red; */
+    /* margin-top: 30px; */
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.all_fourth_content>.all_fourth_first>.all_fourth_content_top>h1 {
+    font-weight: 100;
+}
+
+.all_fourth_first>.fourth_content_bottom_butn {
+    display: none;
+    /* text-align: center; */
+    /* justify-content: center; */
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    /* height: 80px; */
+    /* margin-left: 10px; */
+}
+
+@keyframes fourthFirst {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+.all_fourth_first:hover .fourth_content_bottom_butn {
+    display: flex;
+    animation: fourthFirst 0.5s ease-in-out;
+}
+
+.all_fourth_content .fourth_content_bottom_butn button {
+    height: 30px;
+    width: 80px;
+    margin-right: 5px;
+    background-color: #111;
+    color: #fff;
+    font-size: 0.7rem;
+    cursor: pointer;
+    /* animation: left 0.5s ease-in-out; */
+    /* animation-fill-mode: forwards; */
+}
+
+.all_fourth_content .fourth_content_bottom_butn button:hover {
+    background-color: #111111c8;
+    border: none;
+    /* animation: left; */
+    /* animation: left 0.5s ease-in-out; */
+
+}
+
+.all_fourth_content .fourth_content_bottom_butn p a {
+    text-decoration: underline;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    color: #111;
+}
+
+.all_fourth_content .fourth_content_bottom_butn p a:hover {
+    color: blue;
+}
+
+/* --------------------------_______________________Fourth Second_____________________----------------------- */
+
+.all_fourth_second {
+    background-image: url(https://oasis.opstatics.com/content/dam/oasis/page/2024/product/watch/highlight/two-column/new-watch2-pc.jpg.thumb.webp);
+    width: 50%;
+    height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* margin-top: 10px; */
+    /* margin-left: 7.5%; */
+    /* border: 2px solid red; */
+}
+
+.all_fourth_second>.all_fourth_second_content_top {
+    /* border: 2px solid red; */
+    /* margin-top: 30px; */
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.all_fourth_content>.all_fourth_second>.all_fourth_second_content_top>h1 {
+    font-weight: 100;
+}
+
+.all_fourth_second>.fourth_second_content_bottom_butn {
+    display: none;
+    /* text-align: center; */
+    /* justify-content: center; */
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    /* height: 80px; */
+    /* margin-left: 10px; */
+}
+
+@keyframes fourthSecond {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+.all_fourth_second:hover .fourth_second_content_bottom_butn {
+    display: flex;
+    animation: fourthSecond 0.5s ease-in-out;
+}
+
+.all_fourth_content .fourth_second_content_bottom_butn button {
+    height: 30px;
+    width: 80px;
+    margin-right: 5px;
+    background-color: #111;
+    color: #fff;
+    font-size: 0.7rem;
+    cursor: pointer;
+    /* animation: left 0.5s ease-in-out; */
+    /* animation-fill-mode: forwards; */
+}
+
+.all_fourth_content .fourth_second_content_bottom_butn button:hover {
+    background-color: #111111c8;
+    border: none;
+    /* animation: left; */
+    /* animation: left 0.5s ease-in-out; */
+
+}
+
+.all_fourth_content .fourth_second_content_bottom_butn p a {
+    text-decoration: underline;
+    font-size: 0.8rem;
+    margin-left: 5px;
+    color: #111;
+}
+
+.all_fourth_content .fourth_second_content_bottom_butn p a:hover {
+    color: blue;
+}
+
+/* ________________________________------------------------Fifth First  Content ------------------________ */
+
+.all_fifth_content {
+    display: flex;
+    /* margin:  10px 7.5% 0 7%; */
+    /* margin: 5px; */
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 20px;
+    /* border: 2px solid green; */
+    overflow: hidden;
+    position: relative;
+    /* top: 50px; */
+    /* margin-top: 40px; */
+}
+
+/* -------------------------------___________________Fifth First ___________________---------------------- */
+
+.all_fifth_content_first {
+    /* border: 2px solid yellow; */
+    overflow: hidden;
+    width: 50%;
+    margin-right: 5px;
+    position: relative;
+}
+
+.all_fifth_content_first_pic {
+    background-image: url(https://oasis.opstatics.com/content/dam/oasis/page/2024/in/home/easyupgrade/new-easy-upgrade-pc.jpg.thumb.webp);
+    width: 100%;
+    height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    /* margin-top: 50px; */
+    overflow: hidden;
+    /* overflow-x: hidden; */
+    /* visibility: hidden; */
+    /* margin-left: 7.5%; */
+    /* border: 2px solid red; */
+    transition: all 0.5s ease-in-out;
+}
+
+.all_fifth_content_first_pic:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.all_fifth_first>.all_fifth_content_top {
+    /* border: 2px solid red; */
+    /* margin-top: 30px; */
+    position: absolute;
+    /* top: 30px; */
+    bottom: 20px;
+    left: 20px;
+}
+
+.all_fifth_content>.all_fifth_first>.all_fifth_content_top>h1 {
+    font-weight: 100;
+}
+
+
+
+/* --------------------------_______________________Fifth Second_____________________----------------------- */
+
+.all_fifth_content_second {
+    /* border: 2px solid yellow; */
+    overflow: hidden;
+    width: 50%;
+    margin-left: 5px;
+    position: relative;
+}
+
+.all_fifth_content_second_pic {
+    background-image: url(https://oasis.opstatics.com/content/dam/oasis/page/2024/in/home/easyupgrade/student-pc.jpg.thumb.webp);
+    width: 100%;
+    height: 380px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* margin-top: 50px; */
+    cursor: pointer;
+    /* overflow: hidden; */
+    /* margin-left: 7.5%; */
+    /* border: 2px solid red; */
+    /* overflow: hidden; */
+    transition: all 0.5s ease-in-out;
+}
+
+.all_fifth_content_second_pic:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.all_fifth_second>.all_fifth_second_content_top {
+    /* border: 2px solid red; */
+    /* margin-top: 30px; */
+    position: absolute;
+    /* top: 30px; */
+    bottom: 20px;
+    left: 20px;
+    /* right: 80px; */
+    color: #fff;
+}
+
+.all_fifth_content>.all_fifth_second>.all_fifth_second_content_top>h1 {
+    font-weight: 100;
+}
+
+/*--------------------------------------------      This is for Responsive     -----------------------------------------------*/
+/*--------------------------------------             This is for Responsive     -----------------------------------------------*/
+
+
+
+
+/* --------------------------------------------          1350px              ----------------------------------------- */
+
+
+
+
+@media screen and (max-width: 1350px) {
+    .all_first_content {
+        background-image: url(https://www.oneplus.in/content/dam/oasis/page/2024/in/home/dual/genshin-large.jpg.thumb.webp);
+        width: 100%;
+        height: 580px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        /* top: 70px; */
+        /* display: none; */
+    }
+
+    .all_first_content>.first_content_left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: 220px;
+        left: 0px;
+        /* justify-content: center; */
+        text-align: center;
+    }
+
+    .all_first_content>.first_content_right {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: 180px;
+        /* left: 140px; */
+        right: 0px;
+        /* justify-content: center; */
+        text-align: center;
+    }
+}
+
+
+
+/* --------------------------------------------          1024px              ----------------------------------------- */
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+    /* For First main content  */
+
+
+    .all_first_content {
+        background-image: url(https://www.oneplus.in/content/dam/oasis/page/2024/in/home/dual/genshin-mob.jpg.thumb.webp);
+        width: 100%;
+        height: 580px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        margin-top: 70px;
+        /* margin: 0 50px 0 0; */
+        /* border: 2px solid red; */
+        /* overflow: hidden; */
+        /* top: 70px; */
+        /* display: none; */
+    }
+
+    .all_first_content>.first_content_left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        right: 0;
+    }
+
+    .all_first_content>.first_content_left>p>br {
+        display: none;
+    }
+
+    .all_first_content>.first_content_right {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: 440px;
+        left: 10px;
+        right: 0px;
+        /* justify-content: center; */
+        text-align: center;
+    }
+
+    .all_first_content>.first_content_right>p>.first_content_right_remove_prt,
+    .all_first_content>.first_content_right>h1>br {
+        display: none;
+    }
+
+    /* For second main content  */
+
+    .all_second_content {
+        background-image: url(https://www.oneplus.in/content/dam/oasis/page/2024/in/home/benz/benz-mob-0322.jpg.thumb.webp);
+        width: 100%;
+        height: 580px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        /* margin: 0 50px 0 0; */
+        /* border: 2px solid red; */
+        /* overflow: hidden; */
+        /* top: 70px; */
+        /* display: none; */
+    }
+
+    .all_second_content>.second_content_top {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        right: 0;
+    }
+
+    .all_second_content>.second_content_top>p>br {
+        display: none;
+    }
+
+    .all_second_content>.second_content_bottom {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        /* top: 440px; */
+        left: 10px;
+        right: 30px;
+        /* justify-content: center; */
+        /* text-align: center; */
+    }
+
+    .all_second_content>.second_content_bottom>p>.second_content_bottom_remove_prt {
+        display: none;
+    }
+
+    /* For third main content  */
+
+    .all_third_content {
+        background-image: url(https://www.oneplus.in/content/dam/oasis/page/2024/bannerproduct/wa-12-mob.webp.thumb.webp);
+        width: 100%;
+        height: 580px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        /* margin: 0 50px 0 0; */
+        /* border: 2px solid red; */
+        /* overflow: hidden; */
+        /* top: 70px; */
+        /* display: none; */
+    }
+
+    .all_third_content>.third_content_top {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        right: 0;
+    }
+
+    .all_third_content>.third_content_top>p>br {
+        display: none;
+    }
+
+    .all_third_content>.third_content_bottom {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        /* top: 440px; */
+        left: 10px;
+        right: 30px;
+        /* justify-content: center; */
+        /* text-align: center; */
+    }
+
+    .all_third_content>.third_content_bottom>p>.third_content_bottom_remove_prt {
+        display: none;
+    }
+
+    /* Fourth content */
+    .all_fourth_content>.all_fourth_first>.all_fourth_content_top>h1 {
+        font-weight: 100;
+    }
+}
+
+
+/* --------------------------------------------          707px              ----------------------------------------- */
+
+
+
+
+@media screen and (max-width:707px) {
+
+    /*_________________________-----------------Fourth content--------------______________________________  */
+
+
+
+    /* __________________________---------------First content--------------_______________________________ */
+
+
+    .all_fourth_content {
+        display: block;
+    }
+
+    .all_fifth_content_first {
+        width: 100%;
+    }
+
+    .all_fourth_first {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .all_fourth_first>.fourth_content_bottom_butn {
+        display: flex;
+    }
+
+
+    /* ____________________________---------------Second content-----------------------_________________________ */
+
+    .all_fourth_second {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .all_fourth_second>.fourth_second_content_bottom_butn {
+        display: flex;
+    }
+
+    .all_fifth_content_second {
+        width: 100%;
+    }
+
+    /* ________________________________--------------------Fifth Content ------------------____________________________ */
+
+    /* ________________________________---------------------First content ---------------------____________________ */
+
+    .all_fifth_content {
+        display: block;
+    }
+
+    .all_fifth_content_first_pic {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* ____________________________---------------Second content-----------------------_________________________ */
+
+    .all_fifth_content_second_pic {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    
+
+}
+
+
+/* --------------------------------------------          521px              ----------------------------------------- */
+
+
+
+
+@media screen and (max-width:521px) {
+    .all_first_content>.first_content_right {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: 390px;
+        left: 10px;
+        right: 0px;
+        padding: 0 10px 0 0;
+        /* justify-content: center; */
+        text-align: center;
+    }
+}
+
+
+/* ---------------------------------------------           321px            ----------------------------------------- */
+
+
+
+
+@media screen and (max-width:321px) {
+    .all_first_content>.first_content_right {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        top: 350px;
+        left: 10px;
+        right: 0px;
+        /* justify-content: center; */
+        text-align: center;
+    }
+}
