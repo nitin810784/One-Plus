@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .arrow {
+  position: relative;
+  display: inline-block;
+  padding-right: 20px; /* Add some padding to create space for the arrow */
+}
+
+.arrow::after {
+  content: "+"; /* Initial content */
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  transition: all 0.3s ease; /* Smooth transition */
+}
+
+.arrow:hover::after {
+  content: "\2192"; /* Unicode for right arrow ➡ */
+}
+
+</style>
+<body>
+    <div class="arrow">Hover over me</div>
+
+</body>
+</html>
